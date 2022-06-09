@@ -19,6 +19,9 @@ body {
   background-color: white;
   border-radius: var(--radius);
   padding: 10px 20px;
+  min-width: 200px;
+  max-width: 920px;
+  margin: 0 auto;
 }
 
 #navbar {
@@ -28,6 +31,14 @@ body {
 }
 .logo {
   width: 8rem;
+}
+a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: var(--darkGrey);
+}
+.menu-links {
+  display: none;
 }
 .nav-btn {
   background-color: transparent;
@@ -87,25 +98,19 @@ p {
 }
 .section-2 {
   display: flex;
-  justify-content: space-around;
-  padding: 20px 0;
+  justify-content: space-between;
+  padding: 50px 0 30px 0;
   flex-wrap: wrap;
   gap: 20px;
 }
-.company-section-1 {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-}
+.company-section-1,
 .company-section-2 {
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
 }
+
 .company-section-3 {
   display: none;
 }
@@ -113,6 +118,10 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.different-link {
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 .card {
@@ -173,4 +182,52 @@ h6 {
 }
 .info-img {
   width: 100%;
+}
+
+.footer-header {
+  padding: 20px 0;
+}
+.footer-header i {
+  padding: 5px 5px 5px 0;
+  color: var(--darkGrey);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+span {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.first-row,
+.second-row {
+  display: flex;
+  gap: 20px;
+}
+
+.about,
+.contacts {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 5px;
+}
+.nft-links,
+.social {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  gap: 5px;
+}
+
+.footer-bottom {
+  display: flex;
+  padding: 20px 0;
+}
+.opening {
+  display: none;
 }
