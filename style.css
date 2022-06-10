@@ -24,6 +24,8 @@ body {
   overflow: hidden;
 }
 
+/* navbar */
+
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -78,6 +80,9 @@ a {
   color: var(--violetColor);
   cursor: pointer;
 }
+
+/* header */
+
 #header-container {
   display: flex;
   align-items: center;
@@ -123,6 +128,8 @@ p {
   transform: scale(30px);
   letter-spacing: 0.2em;
 }
+
+/* main section */
 
 .section-1 {
   background: linear-gradient(45deg, var(--gradientColors));
@@ -200,6 +207,9 @@ h4,
 h5,
 h6 {
   margin: 5px 0;
+
+/* underline */
+
 }
 .top-underline,
 .underline {
@@ -210,6 +220,9 @@ h6 {
 .underline {
   margin: 0;
 }
+
+/* info section */
+
 #info-container {
   display: flex;
   align-items: center;
@@ -220,11 +233,9 @@ h6 {
   position: relative;
   top: 23px;
 }
-footer i:hover {
-  color: var(--violetColor);
-  transform: 0.7s ease-in;
-  transform: scale(150%);
-}
+
+/* footer */
+
 .footer-header {
   padding: 20px 0;
 }
@@ -234,8 +245,7 @@ footer i:hover {
 }
 footer i:hover {
   color: var(--violetColor);
-  transform: 0.7s ease-in;
-  transform: scale(150%);
+  transform: scale(130%);
   cursor: pointer;
 }
 
@@ -278,6 +288,8 @@ span {
 .opening {
   display: none;
 }
+
+/* desktop version  */
 
 @media screen and (min-width: 768px) {
   html,
