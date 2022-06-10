@@ -118,7 +118,6 @@ p {
   font-size: 13px;
   font-weight: 600;
   margin: 10px 0;
-
   transition: 0.5s linear;
 }
 .btn:hover {
@@ -366,12 +365,21 @@ span {
     justify-content: space-between;
     margin: 50px 0;
   }
+  .footer-header
+  {
+    flex: 1;
+  }
   .links {
     flex-direction: row;
     padding: 20px 0;
-  }
+    flex: 1;
+    }
+    .about, .nft-links, .contacts, .social{
+      padding-left: 30px;
+    }
   .first-row {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
   }
   .footer-bottom {
