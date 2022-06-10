@@ -375,7 +375,7 @@ span {
     flex: 1;
     }
     .about, .nft-links, .contacts, .social{
-      padding-left: 30px;
+      padding-left: 32px;
     }
   .first-row {
     display: flex;
